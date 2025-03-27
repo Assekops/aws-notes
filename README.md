@@ -2,6 +2,7 @@
 
 #Amazon API Gateway
 
+![Amazon API Gateway](<Amazon API Gateway.png>)
 -Here we have a lambda function performing CRUD operation from dynamo DB database.
 -If we want an external client to be able to access our lambda funtion, but lambda funtion is not exposed as an API directely,
 -We need to expose it through Amazon API Gateway,
