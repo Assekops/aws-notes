@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # aws-notes
 
 #Amazon API Gateway
@@ -13,3 +14,6 @@ Amazon API Gateway is a fully managed serverless service that makes it easy for 
 - The API Gateway proxy the request to the Lambda funtion which will execute the transformation on our data.
   -Amazon API Gateway is a fully managed service to easily create, publish, maintain, monitor and secure APIs.
   -API Gateway supports RESTful APIs and WsbSocket APIs
+=======
+This are my Amazon Web Service notes.
+>>>>>>> a3e18e43691bf66dca9609c767cf9532f8c0be63
