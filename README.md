@@ -1,3 +1,3 @@
 # aws-notes
 
-This Repository contains my Amazon Web Service notes i used while studying.
+These are a raw notes of my AWS study, no styiling or editing.
