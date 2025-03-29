@@ -4,7 +4,7 @@
 
 Amazon API Gateway is a fully managed serverless service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.
 
-![Amazon API Gateway](<Amazon API Gateway.png>)
+![Amazon API Gateway](https://github.com/Assekops/aws-notes/blob/main/diagrams/Amazon%20API%20Gateway.png)
 
 -Here we have a lambda function performing CRUD operation from dynamo DB database.
 -If we want an external client to be able to access our lambda funtion, but lambda funtion is not exposed as an API directely.
