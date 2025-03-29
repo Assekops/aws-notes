@@ -19,4 +19,6 @@ Amazon S3 offeres.
 Object Identifiers.
 A combination of object name, key and version ID uniquely identifies an object.
 
-![Amazon Storage](https://github.com/Assekops/aws-notes/blob/main/diagrams/AWS%20Storage.png)
+Amazon S3 Storage Classes
+
+![Amazon Storage](https://github.com/Assekops/aws-notes/blob/main/diagrams/Amzon%20S3%20Storage%20Classes.jpg)
