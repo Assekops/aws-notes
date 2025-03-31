@@ -20,6 +20,8 @@ Amazon S3 offeres.
 Object Identifiers.
 A combination of object name, key and version ID uniquely identifies an object.
 
+![Amazon Storage](./diagrams/creating%20a%20bucket.png)
+
 Amazon S3 Storage Classes
 
 ![Amazon Storage](https://github.com/Assekops/aws-notes/blob/main/diagrams/Amzon%20S3%20Storage%20Classes.jpg)
@@ -43,7 +45,7 @@ Amazon S3 One Zone IA
 -Off-site storage of coppies of on-premises backups, which gives you extra protection for your backups.
 -Easily replaceable files.
 
-Amazon S3 Glacier.
+Amazon S3 Glacier Flexible Retrival.
 -Storage of long term backups or archives for compliance purposes, or for backups that need to be retained for a long period of time.
 -Replacement for magnetic tapes stored on-premises or offf site.
 -Digital media asset archive for large media files.
@@ -57,3 +59,36 @@ Amazon S3 Intelligent Tiering.
 -Unpredictable workloads.
 -Unknown workloads.
 -Rapidly changing workloads.
+
+Amazon S3 Pricing.
+Amazon S3 Pricing is transparent, pricing is based on the type of object, how long it is stored, and how it is accessed.
+
+Object Ownwership and Access.
+
+By default object does not have public access and ACL(Access Control List) is turned off.
+![Amazon Storage](./diagrams/object%20ownership%20and%20access.png)
+
+-Versioning- help to recover from both unintended user actions and application failures.
+-Versioning is disabled by default.
+-You can enable and suspend versioning at the bucket level. After you version-enable a bucket, you can never return to unversioned state.
+
+Tags.
+Tags help track your storage COSTS.
+
+Object Life Cycle
+-Lifes cycle rule is a set of actions that Amazon S3 applies to a group of objects.
+
+2 Types of actions.
+-Transaction actions define when an object transition from one storage class to another.
+-Expiration action define when objects are expired and are deleted.
+![Amazon Storage](./diagrams/object%20lifecycle.png)
+
+Moving large amount of data into Amazon S3
+
+![Amazon Storage](./diagrams/Amazon%20S3%20transfer%20acceleration.png)
+
+![Amazon Storage](./diagrams/AWS%20Snowcone.png)
+
+![Amazon Storage](./diagrams/AWS%20Snowball.png)
+
+![Amazon Storage](./diagrams/AWS%20Snowmobile.png)
