@@ -1,5 +1,36 @@
-Amazon S3.
+Introduction to Storage
 
+Benefits of Cloud Storage
+Cost efficient- you pay only for what you use.
+Secure-data is saved across multiple servers.
+Accessible- to multiple user in an account.
+Scalable- it can grow and shrink as your work load change.
+Managed- you don't have to worry about servers and focus on your data and applications.
+Backed up- copies of data are stored in different physical locations in case of failure.
+
+Types of cloud Storage.
+
+Block Storage
+
+use cases:
+-Hosting database instances.
+-Big data analytics.
+-Enterprise application.
+![Amazon Storage](./diagrams/Block%20Storage.png)
+
+File Storage
+![Amazon Storage](./diagrams/File%20Storage.png)
+
+Object Storage
+
+use cases:
+-Disaster recovery.
+-Data lakes.
+-Cloud-native applications
+
+![Amazon Storage](./diagrams/object%20storage.png)
+
+Amazon S3.
 S3- Simple Storage Service.
 Amazon S3 is an object storage service that you can use to collect, store, and analyze data in any amount from amywhere in the world.
 Common use case:.
@@ -59,6 +90,10 @@ Amazon S3 Intelligent Tiering.
 -Unpredictable workloads.
 -Unknown workloads.
 -Rapidly changing workloads.
+
+Choosing a storage class- case 1
+
+![Amazon Storage](./diagrams/Choosing%20storage%20class-case%201.png)
 
 Amazon S3 Pricing.
 Amazon S3 Pricing is transparent, pricing is based on the type of object, how long it is stored, and how it is accessed.
