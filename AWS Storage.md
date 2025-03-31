@@ -16,10 +16,10 @@ use cases:
 -Hosting database instances.
 -Big data analytics.
 -Enterprise application.
-![Amazon Storage](./diagrams/Block%20Storage.png)
+![Amazon Storage](https://github.com/Assekops/aws-notes/blob/main/diagrams/Block%20Storage.png)
 
 File Storage
-![Amazon Storage](./diagrams/File%20Storage.png)
+![Amazon Storage](https://github.com/Assekops/aws-notes/blob/main/diagrams/File%20Storage.png)
 
 Object Storage
 
@@ -28,7 +28,7 @@ use cases:
 -Data lakes.
 -Cloud-native applications
 
-![Amazon Storage](./diagrams/object%20storage.png)
+![Amazon Storage](https://github.com/Assekops/aws-notes/blob/main/diagrams/object%20storage.png)
 
 Amazon S3.
 S3- Simple Storage Service.
@@ -51,7 +51,7 @@ Amazon S3 offeres.
 Object Identifiers.
 A combination of object name, key and version ID uniquely identifies an object.
 
-![Amazon Storage](./diagrams/creating%20a%20bucket.png)
+![Amazon Storage](https://github.com/Assekops/aws-notes/blob/main/diagrams/creating%20a%20bucket.png)
 
 Amazon S3 Storage Classes
 
@@ -93,15 +93,22 @@ Amazon S3 Intelligent Tiering.
 
 Choosing a storage class- case 1
 
-![Amazon Storage](./diagrams/Choosing%20storage%20class-case%201.png)
+![Amazon Storage](https://github.com/Assekops/aws-notes/blob/main/diagrams/Choosing%20storage%20class-case%201.png)
 
+Choosing a storage class- case 2
+
+![Amazon Storage](https://github.com/Assekops/aws-notes/blob/main/diagrams/Choosing%20storage%20class-case%202.png)
+
+Choosing a storage class- case 3
+
+![Amazon Storage](https://github.com/Assekops/aws-notes/blob/main/diagrams/Choosing%20storage%20class-case%203.png)
 Amazon S3 Pricing.
 Amazon S3 Pricing is transparent, pricing is based on the type of object, how long it is stored, and how it is accessed.
 
 Object Ownwership and Access.
 
 By default object does not have public access and ACL(Access Control List) is turned off.
-![Amazon Storage](./diagrams/object%20ownership%20and%20access.png)
+![Amazon Storage](https://github.com/Assekops/aws-notes/blob/main/diagrams/object%20ownership%20and%20access.png)
 
 -Versioning- help to recover from both unintended user actions and application failures.
 -Versioning is disabled by default.
@@ -116,14 +123,14 @@ Object Life Cycle
 2 Types of actions.
 -Transaction actions define when an object transition from one storage class to another.
 -Expiration action define when objects are expired and are deleted.
-![Amazon Storage](./diagrams/object%20lifecycle.png)
+![Amazon Storage](https://github.com/Assekops/aws-notes/blob/main/diagrams/object%20lifecycle.png)
 
 Moving large amount of data into Amazon S3
 
-![Amazon Storage](./diagrams/Amazon%20S3%20transfer%20acceleration.png)
+![Amazon Storage](https://github.com/Assekops/aws-notes/blob/main/diagrams/Amazon%20S3%20transfer%20acceleration.png)
 
-![Amazon Storage](./diagrams/AWS%20Snowcone.png)
+![Amazon Storage](https://github.com/Assekops/aws-notes/blob/main/diagrams/AWS%20Snowcone.png)
 
-![Amazon Storage](./diagrams/AWS%20Snowball.png)
+![Amazon Storage](https://github.com/Assekops/aws-notes/blob/main/diagrams/AWS%20Snowball.png)
 
-![Amazon Storage](./diagrams/AWS%20Snowmobile.png)
+![Amazon Storage](https://github.com/Assekops/aws-notes/blob/main/diagrams/AWS%20Snowmobile.png)
