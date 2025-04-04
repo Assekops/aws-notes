@@ -1,5 +1,5 @@
 Instance Categories
-![Amazon Storage](./diagrams/Instance%20categories.png)
+![Amazon Storage](https://github.com/Assekops/aws-notes/blob/main/diagrams/Instance%20categories.png)
 -General Purpose
 Provide balance of compute, memory and networking resources.
 Use case: Ideal for applications that use resources in equal proportion, such as web servers and code repository.
