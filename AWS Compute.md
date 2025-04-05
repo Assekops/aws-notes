@@ -16,3 +16,38 @@ Use hardware accelerator, or co-processors, to perform functions such as floatin
 
 -Storage Optimized
 Designed for workloads that require high, sequencial read and write access to very large data sets on local storage. They are optimized to deliver tens of thousands of IOPS to applications.
+
+Vertical Scaling
+
+![Amazon Storage](./diagrams/vertical%20scaling.png)
+Vertical Scaling gives an option to cahnging your instance type. You can scale up or down, as needed, for computing power, memory, disk space and more.
+
+Steps to vertically scale.
+
+1. Stop the instance.
+2. Make the desired change to the instance size or type( Scale up or down).
+3. Start the instance.
+
+Disadvantages:
+-Manual process (but can be automated by using AWS Lambda)
+-challenging when you have multiple instances to manage.
+-Limited on instance scalablity.
+-Requires the instance to be unavailable while making changes.
+
+Horizontal Scaling
+![Amazon Storage](./diagrams/horizontal%20scaling.png)
+
+Horizontal Scaling is the process of adding or removing EC2 instances depending on the traffic demands.
+Benefits:
+-Improve fault tolerance.
+-Increase application avalability.
+-Lower costs.
+-Requires no downtime to implement.
+
+Amazon EC2 Auto Scaling
+-Helps maintain application availability and lets you automatically add or remove EC2 instances according to conditions that you define.
+-Launches and terminates instances based on specific conditions.
+-Automatically register new instances with load balancers when specified.
+-can launch instances across avalability zones.
+-Replaces unhealty or unreachable instances with new instances.
+-Helps to save money by automating the number of instances based on condition needs.
