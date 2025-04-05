@@ -18,8 +18,8 @@ Use hardware accelerator, or co-processors, to perform functions such as floatin
 Designed for workloads that require high, sequencial read and write access to very large data sets on local storage. They are optimized to deliver tens of thousands of IOPS to applications.
 
 Vertical Scaling.
-
 ![Amazon Storage](https://github.com/Assekops/aws-notes/blob/main/diagrams/vertical%20scaling.png)
+
 Vertical Scaling gives an option to changing your instance type. You can scale up or down, as needed, for computing power, memory, disk space and more.
 
 Steps to vertically scale.
