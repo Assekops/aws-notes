@@ -14,6 +14,17 @@ AWS Elastic Beanstalk: is an easy to use service for deploying and scaling web a
 
 ![AWS Compute](./diagrams/AWS%20computing%20services.png)
 
+Amazon EC2 purchasing options.
+
+On-Demand Instances: Pay for the compute capacity per second(Amazon Linux & Ubuntu) and per hour(other OS), with no long term comitment, no upfront payment, that you can increase or decrease your compute capacity depending on the demands of your application.
+
+Reserved Instances: Provides you with a significant discount upto 72% when you commit to pay for 1 or 3 years buying option, they are assigned to a specific availability zone with three payment options, Standard RI, Convertible RI, Scheduled RI.
+
+Savings Plan:
+Compute Savings Plan- provides the most flexible and helps to reduce cost by upto 66% discount. You can change from one availability sone to anouther or from one instance to another.
+EC2 Instance Savings plan-apply only to a specific region within specific instance family with upto 72% discount.
+Spot Instances: lets you purchase unused(spare) Amazon EC2 capacity upto 90% discount. Have a termination notice of 2 minutes
+
 Instance Categories
 
 ![AWS Compute](https://github.com/Assekops/aws-notes/blob/main/diagrams/Instance%20categories.png)
